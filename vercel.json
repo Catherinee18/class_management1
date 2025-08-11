@@ -2,14 +2,14 @@
     "version":2,
     "builds":[
         {
-            "src":"Class Management",
+            "src":"Class_mngement.js",
             "use":"@vercel/node"
         }
     ],
     "routes":[
         {
             "src":"/(.*)",
-            "dest":"Class Management"
+            "dest":"Class_mngement.js"
         }
     ]
 }
