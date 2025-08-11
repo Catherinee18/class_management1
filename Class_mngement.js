@@ -12,11 +12,13 @@ app.get('/',(req, res) => {
     <title>Class Management</title>
 </head>
 <body>
-    
+        <h1> Class management </h1>
+
 </body>
 </html>`);
 });
 
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
+
 });
