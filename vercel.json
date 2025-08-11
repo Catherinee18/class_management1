@@ -1,0 +1,15 @@
+{
+    "version":2,
+    "builds":[
+        {
+            "src":"Class Management",
+            "use":"@vercel/node"
+        }
+    ],
+    "routes":[
+        {
+            "src":"/(.*)",
+            "dest":"Class Management"
+        }
+    ]
+}
